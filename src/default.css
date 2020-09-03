@@ -51,3 +51,16 @@ span.info {
 div.clear {
   clear: both;
 }
+
+// Addition by appel
+#listContainer div div span.glyph {
+	opacity: 0;
+}
+
+#listContainer div div:hover span.glyph {
+	opacity: 0.7;
+}
+
+#listContainer div div:hover span.glyph:hover {
+	opacity: 1;
+}
